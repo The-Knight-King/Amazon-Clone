@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon.com</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" class="fav-icon" href="/Amazon Clone/Assets/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="/Amazon Clone/style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <!-- Amazon Logo (Box-1)-->
+            <div class="nav-logo border">
+                <div class="logo"></div>
+            </div>
+
+            <!-- Box-2 -->
+            <div class="nav-location border">
+                <p class="loc-first">Deliver to</p>
+                <div class="loc-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="loc-second">India</p>
+                </div>
+            </div>
+
+            <!-- Box-3 (search box) -->
+            <div class="nav-search">
+                <select id="selector">
+                    <option>All</option>
+                    <option>Art & Crafts</option>
+                    <option>Beauty & Personal Care</option>
+                    <option>Books</option>
+                    <option>Computers</option>
+                    <option>Electronics</option>
+                    <option>Health & Household</option>
+                    <option>Home & Kitchen</option>
+                    <option>Kindle Store</option>
+                    <option>Movies & TV</option>
+                    <option>Prime Video</option>
+                    <option>Software</option>
+                    <option>Toys & Games</option>
+                    <option>Video Games</option>
+                    <option>Women's Fashion</option>
+                </select>
+                <input type="text" placeholder="Search Amazon" id="search-input">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+
+            <!-- Box-4 Change Language -->
+            <div class="nav-language border">
+                <div class="flag-icon">
+                    🇺🇸
+                </div>
+                <select id="lang">
+                    <option>EN</option>
+                    <option>ES</option>
+                    <option>AR</option>
+                    <option>DE</option>
+                    <option>HE</option>
+                    <option>KO</option>
+                    <option>PT</option>
+                </select>
+            </div>
+
+            <!-- Box-5 Sign in option -->
+            <div class="nav-signin border">
+                <p class="nav-first"><span>Hello, Sign in</span></p>
+                <p class="nav-second"><span>Account & Lists</span></p>
+            </div>
+
+            <!-- Box-6 Returns & orders -->
+            <div class="nav-returns border">
+                <p class="nav-first"><span>Returns</span></p>
+                <p class="nav-second"><span>& Orders</span></p>
+            </div>
+
+            <!-- Box-7 i.e Cart -->
+            <div class="nav-cart border">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <p class="nav-cart-text">Cart</p>
+            </div>
+        </div>
+
+        <!-- Creating 2nd panel in navbar -->
+        <div class="panel">
+            <div class="panel-all border-2">
+                <i class="fa-solid fa-bars"></i>
+                <p>All</p>
+            </div>
+
+            <div class="panel-options">
+                <p class="border-2">Today's Deals</p>
+                <p class="border-2">Customer Service</p>
+                <p class="border-2">Registry</p>
+                <p class="border-2">Gift Cars</p>
+                <p class="border-2">Sell</p>
+            </div>
+
+            <div class="panel-deals border-2">
+                <p>Shop Deals in Electronics</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Creating the main section of the page -->
+    <main>
+        <!-- Adding our hero-section -->
+        <div class="hero-section">
+            <div class="hero-msg">
+                <p>You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery. <a href="https://www.amazon.in/?ref=aisgw_intl_stripe_in" target="_blank">Click here to go to amazon.in</a></p>
+            </div>
+        </div>
+    
+        <!-- Adding shopping section i.e. cards now -->
+    
+        <div class="shop-section-1">
+            <div class="card">
+                <h2>Gaming Accessories</h2>
+                <div class="box-img" style="background-image: url('Assets/Box-1.jpg');"></div>
+                <a href="https://www.amazon.com/b/?_encoding=UTF8&node=23508887011&pd_rd_w=nByxF&content-id=amzn1.sym.12129333-2117-4490-9c17-6d31baf0582a&pf_rd_p=12129333-2117-4490-9c17-6d31baf0582a&pf_rd_r=9HNAF9FP9D15FW3SN0A6&pd_rd_wg=SGDx6&pd_rd_r=a45de12c-90f2-494f-a4d4-fc48f67d74bd&ref_=pd_hp_d_atf_unk">See More</a>
+            </div>
+            <div class="card">
+                <h2>Deals in PCs</h2>
+                <div class="box-img" style="background-image: url('Assets/Box-2.jpg');"></div>
+                <a href="https://www.amazon.com/gp/goldbox/?ie=UTF8&ref_=nav_cs_gb&deals-widget=%257B%2522version%2522%253A1%252C%2522viewIndex%2522%253A0%252C%2522presetId%2522%253A%2522957D18D8132C0FCBA2EA0F57FEB9A3F8%2522%252C%2522departments%2522%253A%255B%25221055398%2522%255D%252C%2522sorting%2522%253A%2522BY_SCORE%2522%257D&pd_rd_w=VBhcG&content-id=amzn1.sym.68f2b66e-afdb-4a19-b88c-555da04d6dc2&pf_rd_p=68f2b66e-afdb-4a19-b88c-555da04d6dc2&pf_rd_r=AZ8QWDWJWNAJTJAJFJ2Y&pd_rd_wg=P0MlQ&pd_rd_r=4b0150ed-91d9-492e-b6a7-8b6c2b6c2405&discounts-widget=%2522%257B%255C%2522state%255C%2522%253A%257B%255C%2522refinementFilters%255C%2522%253A%257B%257D%257D%252C%255C%2522version%255C%2522%253A1%257D%2522">Shop Now</a>
+            </div>
+            <div class="card">
+                <h2>Refresh your space</h2>
+                <div class="box-img" style="background-image: url('Assets/Box-3.jpg');"></div>
+                <a href="https://www.amazon.com/gp/goldbox/?ie=UTF8&ref_=nav_cs_gb&deals-widget=%257B%2522version%2522%253A1%252C%2522viewIndex%2522%253A0%252C%2522presetId%2522%253A%252215E8DB96732AF8CA9C14916141BB1C4C%2522%252C%2522departments%2522%253A%255B%25227147440011%2522%252C%25227192394011%2522%252C%2522679337011%2522%252C%25226358543011%2522%255D%252C%2522sorting%2522%253A%2522FEATURED%2522%257D&pd_rd_w=ws7K2&content-id=amzn1.sym.56e14e61-447a-443b-9528-4b285fddeeac&pf_rd_p=56e14e61-447a-443b-9528-4b285fddeeac&pf_rd_r=AZ8QWDWJWNAJTJAJFJ2Y&pd_rd_wg=P0MlQ&pd_rd_r=4b0150ed-91d9-492e-b6a7-8b6c2b6c2405&discounts-widget=%2522%257B%255C%2522state%255C%2522%253A%257B%255C%2522refinementFilters%255C%2522%253A%257B%257D%257D%252C%255C%2522version%255C%2522%253A1%257D%2522">See More</a>
+            </div>
+            <div class="card">
+                <h2>Shop deals in Fashion</h2>
+                <div class="box-img" style="background-image: url('Assets/Box-4.jpg');"></div>
+                <a href="https://www.amazon.com/gp/goldbox/?ie=UTF8&deals-widget=%257B%2522version%2522%253A1%252C%2522viewIndex%2522%253A0%252C%2522presetId%2522%253A%252219A70421F1B18305BA3C837E25E8FDF9%2522%252C%2522departments%2522%253A%255B%2522541966%2522%255D%252C%2522sorting%2522%253A%2522FEATURED%2522%257D&pd_rd_w=VYQJO&content-id=amzn1.sym.3a6a1f11-a96c-444b-b219-97322616eb92&pf_rd_p=3a6a1f11-a96c-444b-b219-97322616eb92&pf_rd_r=AZ8QWDWJWNAJTJAJFJ2Y&pd_rd_wg=P0MlQ&pd_rd_r=4b0150ed-91d9-492e-b6a7-8b6c2b6c2405&ref_=pd_hp_d_atf_unk&discounts-widget=%2522%257B%255C%2522state%255C%2522%253A%257B%255C%2522refinementFilters%255C%2522%253A%257B%257D%257D%252C%255C%2522version%255C%2522%253A1%257D%2522#dealsGridLinkAnchor">See all deals</a>
+            </div>
+        </div>
+    
+        <div class="shop-section-2">
+            <div class="card">
+                <h2>Amazon Gadget Store</h2>
+                <div class="box-img" style="background-image: url('Assets/Box-5.jpg');"></div>
+                <a href="https://www.amazon.com/s?k=electronics&_encoding=UTF8&content-id=amzn1.sym.061f5f08-3bb1-4c70-8051-5d850a92de53&pd_rd_r=4b0150ed-91d9-492e-b6a7-8b6c2b6c2405&pd_rd_w=LmUVr&pd_rd_wg=P0MlQ&pf_rd_p=061f5f08-3bb1-4c70-8051-5d850a92de53&pf_rd_r=AZ8QWDWJWNAJTJAJFJ2Y&ref=pd_hp_d_atf_unk">See More</a>
+            </div>
+            <div class="card">
+                <h2>Health and Wellness</h2>
+                <div class="box-img" style="background-image: url('Assets/Box-6.jpg');"></div>
+                <a href="https://www.amazon.com/s?k=mens+personal+care+sets&_encoding=UTF8&content-id=amzn1.sym.36b3bd24-30cc-4394-a99c-32175deb1058&pd_rd_r=4b0150ed-91d9-492e-b6a7-8b6c2b6c2405&pd_rd_w=EMDmT&pd_rd_wg=P0MlQ&pf_rd_p=36b3bd24-30cc-4394-a99c-32175deb1058&pf_rd_r=AZ8QWDWJWNAJTJAJFJ2Y&ref=pd_hp_d_atf_unk">Shop all</a>
+            </div>
+            <div class="card">
+                <h2>Top Deals</h2>
+                <div class="box-img" style="background-image: url('Assets/Box-7.jpg');"></div>
+                <a href="https://www.amazon.com/gp/goldbox/?ie=UTF8&ref_=dlx_gate_dd_dcl_vai_dt_nav_cs_gb&pd_rd_w=xbTcK&content-id=amzn1.sym.def2f06c-d9a7-4927-8433-aa333a9fca53&pf_rd_p=def2f06c-d9a7-4927-8433-aa333a9fca53&pf_rd_r=AZ8QWDWJWNAJTJAJFJ2Y&pd_rd_wg=P0MlQ&pd_rd_r=4b0150ed-91d9-492e-b6a7-8b6c2b6c2405&discounts-widget=%2522%257B%255C%2522state%255C%2522%253A%257B%255C%2522refinementFilters%255C%2522%253A%257B%257D%257D%252C%255C%2522version%255C%2522%253A1%257D%2522">See all deals</a>
+            </div>
+            <div class="card">
+                <h2>Fashion trends you like</h2>
+                <div class="box-img" style="background-image: url('Assets/Box-8.jpg');"></div>
+                <a href="https://www.amazon.com/s?k=Spring+Jackets&_encoding=UTF8&content-id=amzn1.sym.bad2a3cf-6397-46b0-aa92-6036dbc4afb6&crid=28AAZ2JDZCYX1&pd_rd_r=4b0150ed-91d9-492e-b6a7-8b6c2b6c2405&pd_rd_w=E8EJr&pd_rd_wg=P0MlQ&pf_rd_p=bad2a3cf-6397-46b0-aa92-6036dbc4afb6&pf_rd_r=AZ8QWDWJWNAJTJAJFJ2Y&sprefix=spring+jackets%2Caps%2C140&ref=pd_hp_d_atf_unk">Explore More</a>
+            </div>
+        </div>
+    </main>
+    
+    <!-- Adding footer for the page -->
+    <footer>
+        <a href="#top">
+            <div class="foot-panel-1">
+            Back to top
+        </div></a>
+
+        <!-- Adding footer panel-2 -->
+
+        <div class="foot-panel-2">
+            <div class="foot-list">
+                <ul>
+                    <h4>Get to know us</h4>
+                    <a href="amazon.jobs/en/">Careers</a>
+                    <a href="amazon.jobs/en/">Blog</a>
+                    <a href="amazon.jobs/en/">About Amazon</a>
+                    <a href="amazon.jobs/en/">Investor Relations</a>
+                    <a href="amazon.jobs/en/">Amazon Devices</a>
+                    <a href="amazon.jobs/en/">Amazon Science</a>
+               </ul>
+            </div>
+            <div class="foot-list">
+                <ul>
+                    <h4>Make Money with Us</h4>
+                    <a href="https://sell.amazon.com/?ld=AZFSSOA&ref_=footer_soa">Sell products on Amazon</a>
+                    <a href="https://sell.amazon.com/?ld=AZFSSOA&ref_=footer_soa">Sell on Amazon Business
+                    </a>
+                    <a href="https://sell.amazon.com/?ld=AZFSSOA&ref_=footer_soa">Sell apps on Amazon</a>
+                    <a href="https://sell.amazon.com/?ld=AZFSSOA&ref_=footer_soa">Become an Affiliate</a>
+                    <a href="https://sell.amazon.com/?ld=AZFSSOA&ref_=footer_soa">Advertise Your Products</a>
+                    <a href="https://sell.amazon.com/?ld=AZFSSOA&ref_=footer_soa">Self-Publish with Us</a>
+                    <a href="https://sell.amazon.com/?ld=AZFSSOA&ref_=footer_soa">Host an Amazon Hub</a>
+                    <a href="https://sell.amazon.com/?ld=AZFSSOA&ref_=footer_soa">See More Make Money with Us</a>
+               </ul>
+            </div>
+            <div class="foot-list">
+                <ul>
+                    <h4>Amazon Payment Products</h4>
+                    <a href="https://www.amazon.com/dp/B07984JN3L?plattr=ACOMFO&ie=UTF-8">Amazon Business Card</a>
+                    <a href="https://www.amazon.com/dp/B07984JN3L?plattr=ACOMFO&ie=UTF-8">Shop with Points</a>
+                    <a href="https://www.amazon.com/dp/B07984JN3L?plattr=ACOMFO&ie=UTF-8">Reload Your Balance</a>
+                    <a href="https://www.amazon.com/dp/B07984JN3L?plattr=ACOMFO&ie=UTF-8">Amazon Currency Converter</a>
+               </ul>
+            </div>
+            <div class="foot-list">
+                <ul>
+                    <h4>Let Us Help You</h4>
+                    <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=GDFU3JS5AL6SYHRD&ref_=footer_covid">Amazon and COVID-19</a>
+                    <a href="https://www.amazon.com/gp/css/homepage.html?ref_=footer_ya">Your Account</a>
+                    <a href="https://www.amazon.com/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fyour-orders%2Forders%3F_encoding%3DUTF8%26ref_%3Dfooter_yo&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=amzn_retail_yourorders_us&openid.mode=checkid_setup&language=en_US&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0">Your Orders</a>
+                    <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=GDFU3JS5AL6SYHRD&ref_=footer_covid">Shipping Rates & Policies</a>
+                    <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=GDFU3JS5AL6SYHRD&ref_=footer_covid">Returns & Replacements</a>
+                    <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=GDFU3JS5AL6SYHRD&ref_=footer_covid">Manage Your Content and Devices</a>
+                    <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=GDFU3JS5AL6SYHRD&ref_=footer_covid">Amazon Assistant</a>
+                    <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=508510&ref_=footer_gw_m_b_he">Help</a>
+               </ul>
+            </div>
+        </div>
+
+        <!-- Adding panel-3 of the footer -->
+        <div class="foot-panel-3">
+            <span>
+                <a href="/Amazon Clone/index.html"><img class="foot-logo" src="/Amazon Clone/Assets/Amazon-logo.png" alt="Amazon logo"></a>
+            </span>
+
+            <span>
+                <div class="foot-line">
+                    <a href=""><i class="fa-solid fa-globe foot-icon"></i>English</a>
+                    <a href=""><i class="fa-solid fa-dollar-sign foot-icon"></i>USD - U.S. Dollar</a>
+                    <a href="">🇺🇸 United States</a>
+                </div>
+            </span>
+        </div>
+
+        <!-- Adding panel-4 of the footer -->
+        <div class="foot-panel-4">
+            <ul class="pages">
+                <li><a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=508088&ref_=footer_cou">Conditions of Use</a></li>
+                <li><a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=468496&ref_=footer_privacy">Privacy Notice</a></li>
+                <li><a href="https://www.amazon.com/gp/help/customer/display.html?ie=UTF8&nodeId=TnACMrGVghHocjL8KB&ref_=footer_consumer_health_data_privacy">Consumer Health Data Privacy Disclosure</a></li>
+                <li><a href="https://www.amazon.com/privacyprefs?ref_=footer_iba">Your Ads Privacy Choices</a></li>
+                <li><span><i class="fa-regular fa-circle-check"></i></span></li>
+            </ul>
+
+            <span class="copyright"><i class="fa-regular fa-copyright"></i> 1996-2024, Amazon.com, Inc. or its affiliates</span>
+        </div>
+    </footer>
+</body>
+</html>

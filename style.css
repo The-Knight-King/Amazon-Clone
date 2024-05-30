@@ -1,0 +1,479 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    height: 62px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    /* align-items: center; */
+}
+
+.nav-logo {
+    width: 118px;
+    height: 50px;
+}
+
+.logo {
+    background-image: url("Assets/Amazon-logo.png");
+    background-size: cover;
+    width: 100px;
+    height: 35px;
+    margin-top: 7px;
+    margin-left: 8px;
+}
+
+.border {
+    border: 1.5px solid transparent;
+    border-radius: 2px;
+    margin-top: 5px;
+    /* margin-bottom: 5px; */
+}
+
+.border:hover {
+    border: 1.5px solid white;
+}
+
+/* Adding styling for box-2 */
+
+.nav-location {
+    margin-left: 5px;
+    height: 38px;
+    padding-top: 12px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.loc-icon {
+    display: flex;
+}
+
+.loc-first {
+    color: #cccccc;
+    font-size: 12px;
+    margin-left: 16px;
+    /* margin-top: 5px; */
+}
+
+.loc-second {
+    color: white;
+    font-size: 14px;
+    margin-left: 4px;
+    font-weight: 600;
+}
+
+/* Adding styling for box-3 */
+
+.nav-search {
+    display: flex;
+    width: 822px;
+    border-radius: 4px;
+    justify-content: space-evenly;
+    height: 40px;
+    padding: 10px 4px 10px 3px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#selector {
+    width: 50px;
+    text-align: center;
+    background-color: #e6e6e6;
+    color: #555555;
+    border: none;
+    border-radius: 4px 0px 0px 4px;
+}
+
+#search-input {
+    width: 100%;
+    font-size: 15px;
+    border: none;
+    padding-left: 10px;
+}
+
+.search-icon {
+    width: 50px;
+    font-size: 20px;
+    color: #0f1111;
+    background-color: #FEBD68;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+#selector:hover {
+    background-color: #d4d4d4;
+    color: #0f1111;
+}
+
+.search-icon:hover {
+    background-color: #ffa734;
+}
+
+/* Adding styling for box-4 i.e. language option */
+
+.nav-language {
+    display: flex;
+    width: 70px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.flag-icon {
+    font-size: 25px;
+    margin-top: 3px;
+}
+
+#lang {
+    font-size: 14px;
+    font-weight: 600;
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+/* Adding styling for box-5 i.e. signin option */
+
+.nav-signin {
+    width: 115px;
+    height: 40px;
+    padding-top: 10px;
+    margin-left: 5px;
+    padding-left: 9px;
+}
+
+.nav-first {
+    font-size: 12px;
+}
+
+.nav-second {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/* Adding styling for box-6 i.e. returns and orders */
+
+.nav-returns {
+    width: 68px;
+    height: 40px;
+    padding-top: 10px;
+    margin-left: 10px;
+    padding-left: 9px;
+}
+
+
+/* Adding styling for box-7 i.e. cart */
+.nav-cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 80px;
+}
+
+.fa-cart-shopping {
+    font-size: 30px;
+    padding-right: 4px;
+}
+
+.nav-cart-text {
+    font-size: 14px;
+    font-weight: 700;
+    padding-top: 13px;
+}
+
+/* Adding styling for panel */
+
+.panel {
+    width: 100%;
+    height: 40px;
+    background-color: #222F3E;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 14px;
+}
+
+.fa-bars {
+    font-size: large;
+}
+
+.panel-all {
+    width: 60px;
+    font-weight: 700;
+    margin-left: 10px;
+    height: 27px;
+    padding-top: 8px;
+}
+
+.panel-all p {
+    display: inline;
+}
+
+.panel-options {
+    width: 100%;
+    margin-left: 10px;
+}
+
+.panel-options p {
+    display: inline;
+    margin-left: 15px;
+    padding: 10px 5px 10px 5px;
+}
+
+.panel-deals {
+    width: 250px;
+    text-align: center;
+    height: 35px;
+    margin-right: 10px;
+}
+
+.panel-deals p{
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.border-2 {
+    border: 1.5px solid transparent;
+    border-radius: 2px;
+}
+
+.border-2:hover {
+    border: 1.5px solid white;
+}
+
+/* Adding styling for hero-section */
+
+.hero-section {
+    background-image: url("Assets/hero_image.jpg");
+    background-size: cover;
+    width: 1500px;
+    height: 320px;
+}
+
+.hero-msg {
+    width: 1367px;
+    height: 20px;
+    background-color: #f5f6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 14px;
+    position: absolute;
+    top: 350px;
+    left: 23px;
+    font-size: 14px;
+}
+
+.hero-msg a {
+    color: #007185;
+    text-decoration: none;
+}
+
+.hero-msg a:hover {
+    color: #c7511f;
+    text-decoration: underline;
+}
+
+/* Adding styling for shopping section */
+
+.shop-section-1 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #D3ECF9;
+}
+
+.shop-section-2 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #D3ECF9;
+    padding-top: 20px;
+}
+
+.card {
+    width: 23%;
+    height: 350px;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.card h2 {
+    font-size: 21px;
+    padding-left: 20px;
+}
+
+.box-img {
+    background-size: cover;
+    width: 88%;
+    height: 80%;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+}
+
+.card a {
+    font-size: 13px;
+    text-decoration: none;
+    color: #007185;
+    padding-left: 20px;
+}
+
+.card a:hover {
+    color: #c7511f;
+}
+
+/* Adding styling for footer panel-1 */
+
+footer {
+    margin-top: 10px;
+}
+
+.foot-panel-1 {
+    height: 20px;
+    font-size: 13px;
+    font-weight: 600;
+    background-color: #37475A;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.foot-panel-1:hover {
+    background-color: #485769;
+}
+
+/* Adding styling for footer panel-2 */
+
+.foot-panel-2 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #222F3E;
+    color: white;
+    height: 350px;
+}
+
+.foot-list {
+    margin-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.foot-list ul h4 {
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+
+.foot-list ul a {
+    display: block;
+    padding-top: 12px;
+    font-size: 14px;
+    color: #dddddd;
+    text-decoration: none;
+}
+
+.foot-list ul a:hover {
+    text-decoration: underline;
+}
+
+/* adding styling for Panel-3 */
+
+.foot-panel-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-color: #222F3E;
+    color: white;
+    border-top: 1px solid #37475A;
+}
+
+.foot-logo {
+    height: 30px;
+    width: 90px;
+    margin-right: 100px;
+    margin-top: 10px;
+}
+
+.foot-logo:hover {
+    scale: 1.06;
+}
+
+.foot-line a{
+    font-size: 13px;
+    padding: 10px 7px 10px 7px;
+    border: 1px solid gray;
+    border-radius: 2px;
+    color: #dddddd;
+}
+
+.foot-line a:hover {
+    border: 1px solid rgb(201, 201, 201);
+    border-radius: 2px;
+}
+
+.foot-icon {
+    padding-right: 5px;
+    font-size: 14px;
+}
+
+/* Adding styling for panel-4 of footer */
+
+.foot-panel-4 {
+    background-color: #131A22;
+    height: 70px;
+    color: #dddddd;
+}
+
+.pages {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.pages a{
+    color: #dddddd;
+    font-size: 12px;
+    padding-left: 15px;
+}
+
+.pages a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.fa-circle-check {
+    padding-left: 5px;
+    font-size: 12px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+.fa-copyright {
+    font-size: 9px;
+    padding-right: 4px;
+}
