@@ -153,6 +153,10 @@ a {
     padding-left: 9px;
 }
 
+.nav-signin a {
+    color: white;
+}
+
 .nav-first {
     font-size: 12px;
 }
